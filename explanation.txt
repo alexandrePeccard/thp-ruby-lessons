@@ -1,0 +1,5 @@
+Explications :
+
+Exercice 2 :
+Print permet d\'afficher une chaîne de caractère.
+Puts permet la même chose ainsi que d'utiliser une variable pour compléter la chaîne,\nen utilisant le symbole '#'.
