@@ -23,3 +23,15 @@ Donc l'interpréteur renvoie une erreur car la resources qu'on lui demande d'uti
 Même s'il est assez malin car il propose une variable avec un nom proche qui existe cette fois ;o
 
 	Did you mean? "number_of_weeks_in_THP"
+
+Exercice 7 :
+gets est une fonction qui permet à l'utilisateur du programme de saisir du texte et de le récupérer.
+Ainsi on stocke dans la variable user_name ce qu'on à récupérer grâce la fonction gets après que l'utilisateur ai appuyé sur entrée.
+Normalement gets récupère aussi les caractères de fin de ligne, d'où l'emploi de la fonction chomp qui est en fait une méthode de la classe String. 
+Or la saisie de l'utilisateur est précisément un objet de type string.
+
+La différence entre les trois programmes est simple.
+
+Le premier affiche une chaine demande un nom, puis enregistre la réponse et l'affiche.
+Le second affiche une chaine, puis affiche un ">" pour inviter l'utilisateur à répondre, puis affiche le résultat.
+Le dernier se contente d'attendre la réponse de l'utilisateur puis de l'afficher. 
