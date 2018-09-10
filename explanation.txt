@@ -13,3 +13,13 @@ Donc l'interpréteur génère une erreur : "exo_04.rb:1: unterminated string mee
 
 Exercice 5 :
 Le "#{}" permet de dire à l'interpréteur ruby qu'on va insérer une variable et non une chaîne de caractère.
+
+Exercice 6 :
+En fait la variables "number_of_minutes_in_an_hour" utilisées dans la séquence n'a pas été déclarée: 
+
+	puts "Et en minutes ça fait : #{number_of_minutes_in_an_hour * number_of_hours_worked_per_day * number_of_days_worked_per_week * number_of_weeks_in_THP}"
+
+Donc l'interpréteur renvoie une erreur car la resources qu'on lui demande d'utiliser n'existe pas.
+Même s'il est assez malin car il propose une variable avec un nom proche qui existe cette fois ;o
+
+	Did you mean? "number_of_weeks_in_THP"
