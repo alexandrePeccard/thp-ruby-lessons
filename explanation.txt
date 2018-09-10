@@ -10,3 +10,6 @@ Le symbole '#' permet de mettre une ligne de code en commentaire, elle n'est pas
 Exercice 4 :
 Une chaîne de caractère doit se trouver entre deux symboles comme ceci : "Test". Dans l'exercice, le symbole de fin de chaîne de caractère n'est pas présent.
 Donc l'interpréteur génère une erreur : "exo_04.rb:1: unterminated string meets end of file".
+
+Exercice 5 :
+Le "#{}" permet de dire à l'interpréteur ruby qu'on va insérer une variable et non une chaîne de caractère.
