@@ -4,11 +4,19 @@ i = 0
 j = 0
 string = ""
 puts "Voici la pyramide : "
-while i <= height do
-	while j <= i do
-		string += "#"
-		j +=1
-	end
-	i +=1
-	puts "#{string}"
+
+#Avec la boucle for
+for i in (i...height)
+	string += "#"
+    puts "#{string}"
 end 
+
+# Avec la boucle while
+# while i < height do
+# 	while j <= i do
+# 		string += "#"
+# 		j += 1
+# 	end
+# 	i += 1
+# 	puts "#{string}"
+# end
